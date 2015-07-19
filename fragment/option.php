@@ -13,7 +13,7 @@ $page=basename($_SERVER['SCRIPT_FILENAME'], '.php');
 ?>
 
 <?php foreach($options[$page] as $key => $wood) { ?>
-  <a href="submit.php?c=<?=$wood['correct']?>&a=<?=$key?>">
+  <a href="submit.php?<?="c=".$wood['correct']."&a=$key&p=$page"?>">
     <div class="answer">	
     <p><?=$wood['label']?></p>
   </div>
