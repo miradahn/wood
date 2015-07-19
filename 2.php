@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require('cfg.php'); ?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -22,21 +23,7 @@
 		<div class="question">	
 			<h2>Originally used in the food industry my colors and durability spoke to Artemano. I  have been highlighted with the human touch that lend me <br>my distinct personality. <br>Who am I?</h2>
 		</div>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Suar</p>
-		</div>
-		</a>
-		<a href="correctsubmit.html">
-			<div class="answer">	
-			<p>Acacia</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Indian Rosewood</p>
-		</div>
-		</a>
+    <?php require('fragment/option.php'); ?>
 		<a href="options.html">
 			<div class="back">	
 			<p>← go back</p>
