@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require('cfg.php'); ?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -22,21 +23,7 @@
 		<div class="question">	
 			<h2>With natural tonal marbling<br> I’m heavy and powerful,<br> creating one of Artemano’s <br>signature collections. <br>Who am I?</h2>
 		</div>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Recycled Boat Wood</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Acacia</p>
-		</div>
-		</a>
-		<a href="correctsubmit.html">
-			<div class="answer">	
-			<p>Indian Rosewood</p>
-		</div>
-		</a>
+    <?php require('fragment/option.php'); ?>
 		<a href="options.html">
 			<div class="back">	
 			<p>← go back</p>

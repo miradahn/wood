@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require('cfg.php'); ?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -22,21 +23,7 @@
 		<div class="question">	
 			<h2>In Indonesia, I once carried fishermen. Now in my renewed life my colourful sides with nature's touch are on display. <br>Who am I?</h2>
 		</div>
-		<a href="correctsubmit.html">
-			<div class="answer">	
-			<p>Recycled Boat Wood</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Semi-Antique Wood</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Mango Wood</p>
-		</div>
-		</a>
+    <?php require('fragment/option.php'); ?>
 		<a href="options.html">
 			<div class="back">	
 			<p>← go back</p>

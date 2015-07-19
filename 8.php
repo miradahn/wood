@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require('cfg.php'); ?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -22,21 +23,7 @@
 		<div class="question">	
 			<h2>In India I’m used to build<br>doors and window frames. With Artemano I often stay in my<br> natural organic form. <br>Who am I?</h2>
 		</div>
-		<a href="correctsubmit.html">
-			<div class="answer">	
-			<p>Teak</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Semi-Antique Wood</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Acacia</p>
-		</div>
-		</a>
+    <?php require('fragment/option.php'); ?>
 		<a href="options.html">
 			<div class="back">	
 			<p>← go back</p>

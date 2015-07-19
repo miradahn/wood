@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require('cfg.php'); ?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -22,21 +23,7 @@
 		<div class="question">	
 			<h2>Built a long time ago I have been found by Artemano and given a fresh vibrant look. <br>Who am I?</h2>
 		</div>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Mango Wood</p>
-		</div>
-		</a>
-		<a href="wrongsubmit.html">
-			<div class="answer">	
-			<p>Indian Rosewood</p>
-		</div>
-		</a>
-		<a href="correctsubmit.html">
-			<div class="answer">	
-			<p>Semi-Antique Wood</p>
-		</div>
-		</a>
+    <?php require('fragment/option.php'); ?>
 		<a href="options.html">
 			<div class="back">	
 			<p>← go back</p>

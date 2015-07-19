@@ -16,17 +16,17 @@ $options=array(
   '1'=>array(
     'mango'=> wood('Mango Wood', 'y'),
     'suar'=>  wood('Suar', 'n'), 
-    'acacia' => wood('Acacia', 'n')
+    'acacia' => wood('Acacia', 'n'),
   ),
   '2'=>array(
     'suar'=>  wood('Suar', 'n'), 
     'acacia' => wood('Acacia', 'y'),
-    'rosewood'=> wood('Indian Rosewood', 'n')
+    'rosewood'=> wood('Indian Rosewood', 'n'),
   ),
   '3'=>array(
     'boat'=>  wood('Recycled Boat Wood', 'n'), 
     'acacia' => wood('Acacia', 'n'),
-    'rosewood'=> wood('Indian Rosewood', 'y')
+    'rosewood'=> wood('Indian Rosewood', 'y'),
   ),
   '4'=>array(
     'boat'=>  wood('Recycled Boat Wood', 'y'), 
@@ -39,9 +39,19 @@ $options=array(
     'antique' => wood('Semi-Antique Wood', 'y'),
   ),
   '6'=>array(
-    'mango'=>  wood('Mango Wood', 'n'), 
-    'rosewood'=> wood('Indian Rosewood', 'n'),
-    'antique' => wood('Semi-Antique Wood', 'y'),
+    'antique'=>  wood('Semi-Antique Wood', 'n'), 
+    'railway'=> wood('Recycled Railway Wood', 'n'),
+    'boat' => wood('Recycled Boat Wood', 'y'),
+  ),
+  '7'=>array(
+    'teak'=>  wood('Teak', 'n'), 
+    'acacia'=> wood('Acacia', 'n'),
+    'suar' => wood('Suar', 'y'),
+  ),
+  '8'=>array(
+    'teak'=>  wood('Teak', 'y'), 
+    'antique'=> wood('Semi-Antique Wood', 'n'),
+    'acacia' => wood('Acacia', 'n'),
   ),
 );
 ?>
