@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg8">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>In India I’m used to build<br>doors and window frames. With Artemano I often stay in my<br> natural organic form. <br>Who am I?</h2>

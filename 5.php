@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg5">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>Built a long time ago I have been found by Artemano and given a fresh vibrant look. <br>Who am I?</h2>

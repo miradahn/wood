@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg1">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>After my fruit bearing years, <br>I’m used to fashion accessories as well as industrial-styled <br>tables and desks. <br>Who am I?</h2>

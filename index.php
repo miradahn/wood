@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php require('cfg.php');
+$submitted=req('s');
+$email=req('e');
+$answer=req('a');
+$page=req('p');
+?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -18,7 +24,6 @@
 </head>
 
 <body class="startbackground">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<a href="options.html">
 		<div class="startbutton">

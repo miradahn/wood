@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php require('cfg.php');
-$answer=$_REQUEST['a'];
-$page=$_REQUEST['p'];
-$correct=$_REQUEST['c'] == 'y' ? true : false;
+$answer=req('a');
+$page=req('p');
+$correct=req('c') == 'y' ? true : false;
 $woodName=woodName($page, $answer);
 ?>
 <html lang="en" class="no-js">
@@ -23,7 +23,6 @@ $woodName=woodName($page, $answer);
 
 </head>
 <body class="startbackground">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
     <form method="POST" action="index.php">
       <div class="box">	

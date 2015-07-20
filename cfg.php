@@ -78,4 +78,8 @@ function rightAnswer($page) {
   }
   return '';
 }
+
+function req($var) {
+  return isset($_REQUEST[$var]) ? $_REQUEST[$var] : "";
+}
 ?>

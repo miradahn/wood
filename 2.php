@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg2">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>Originally used in the food industry my colors and durability spoke to Artemano. I  have been highlighted with the human touch that lend me <br>my distinct personality. <br>Who am I?</h2>

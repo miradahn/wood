@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg6">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>In my former life I carried<br>cargo and people across a large network in India.  <br>Who am I?</h2>

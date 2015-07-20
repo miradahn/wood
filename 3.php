@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg3">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>With natural tonal marbling<br> I’m heavy and powerful,<br> creating one of Artemano’s <br>signature collections. <br>Who am I?</h2>

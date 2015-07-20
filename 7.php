@@ -18,7 +18,6 @@
 
 </head>
 <body class="bg7">
-<script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="question">	
 			<h2>My extensive branches are<br> used to craft stand-alone live edge furniture that evolve into <br>pieces of art. <br>Who am I?</h2>
