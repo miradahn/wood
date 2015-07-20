@@ -30,7 +30,7 @@ $woodName=woodName($page, $answer);
         <h2>
           <?=$woodName?> - 
           <?=$correct ? 'CORRECT!' : 'Wrong, try again!'?></h2>
-        <p>Sign up for our email newsletter to receive your $100 gift card and be entered in our $3000 contest.</p>
+        <p>Sign up for our email newsletter to receive your $100 gift card and be entered in our $3000 gift card contest.</p>
         
       
         <div class="email">	
