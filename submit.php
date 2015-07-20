@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php require('cfg.php');
+$answer=$_REQUEST['a'];
+$page=$_REQUEST['p'];
+$correct=$_REQUEST['c'] == 'y' ? true : false;
+$woodName=$options[$page][$answer]['label']
+?>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -20,7 +26,9 @@
 <script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
 		<div class="box">	
-			<h2>Wood Name - CORRECT!</h2>
+			<h2>
+        <?=$woodName?> - 
+        <?=$correct ? 'CORRECT!' : 'Wrong, try again!'?></h2>
 			<p>Sign up for our email newsletter to receive your $100 gift card and be entered in our $3000 contest.</p>
 			
 		
@@ -29,7 +37,7 @@
 			</div>
 		</div>
 	
-		<div class="buttonswrap"
+		<div class="buttonswrap">
 		<ul>
 			<li class="buttons">	
 				<a href="index.html"><p>Sumbit</p></a>
@@ -41,7 +49,6 @@
 	    </div>
 		<div id="logo">
 			<img class="logo" src="img/logo.png" alt="artemano">
-		
 		</div>
 	</div>
 </body>

@@ -54,4 +54,12 @@ $options=array(
     'acacia' => wood('Acacia', 'n'),
   ),
 );
+
+
+function woodName($page, $answer) { 
+  $name=$options[$page][$answer]['label'];
+  print_r($name);
+  return $name;
+}
+
 ?>
