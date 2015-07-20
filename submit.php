@@ -3,7 +3,7 @@
 $answer=$_REQUEST['a'];
 $page=$_REQUEST['p'];
 $correct=$_REQUEST['c'] == 'y' ? true : false;
-$woodName=$options[$page][$answer]['label']
+$woodName=woodName($page, $answer);
 ?>
 <html lang="en" class="no-js">
 <head>

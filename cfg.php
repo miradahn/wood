@@ -57,9 +57,8 @@ $options=array(
 
 
 function woodName($page, $answer) { 
+  global $options;
   $name=$options[$page][$answer]['label'];
-  print_r($name);
   return $name;
 }
-
 ?>
