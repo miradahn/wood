@@ -56,9 +56,26 @@ $options=array(
 );
 
 
+/**
+ * Find name of wood identified by 'answer' on page $page.
+ */
 function woodName($page, $answer) { 
   global $options;
   $name=$options[$page][$answer]['label'];
   return $name;
+}
+
+/**
+ * Find identifier of the correct answer on page $page.
+ */
+function rightAnswer($page) {
+  global $options;
+  $woods=$options[$page];
+  foreach($woods as $ident => $info) { 
+    if ($info['correct'] == 'y') {
+      return $ident;
+    }
+  }
+  return '';
 }
 ?>
