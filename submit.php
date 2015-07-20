@@ -25,28 +25,33 @@ $woodName=woodName($page, $answer);
 <body class="startbackground">
 <script src="js/vendor/jquery-1.11.3.min.js"></script>
 	<div class="content">
-		<div class="box">	
-			<h2>
-        <?=$woodName?> - 
-        <?=$correct ? 'CORRECT!' : 'Wrong, try again!'?></h2>
-			<p>Sign up for our email newsletter to receive your $100 gift card and be entered in our $3000 contest.</p>
-			
-		
-			<div class="email">	
-			<p>TYPE YOUR EMAIL HERE</p>
-			</div>
-		</div>
-	
-		<div class="buttonswrap">
-		<ul>
-			<li class="buttons">	
-				<a href="index.html"><p>Sumbit</p></a>
-			</li>
-			<li class="buttons2">	
-				<a href="options.html"><p>Start Over</p></a>
-			</li>
-	    </ul>
-	    </div>
+    <form method="POST" action="index.php">
+      <div class="box">	
+        <h2>
+          <?=$woodName?> - 
+          <?=$correct ? 'CORRECT!' : 'Wrong, try again!'?></h2>
+        <p>Sign up for our email newsletter to receive your $100 gift card and be entered in our $3000 contest.</p>
+        
+      
+        <div class="email">	
+        <input type="text" name="e" placeholder="Type your email here" />
+        <input type="hidden" name="p" value="<?=$page?>" />
+        <input type="hidden" name="a" value="<?=$answer?>" />
+        <input type="hidden" name="s" value="y" />
+        </div>
+      </div>
+    
+      <div class="buttonswrap">
+      <ul>
+        <li class="buttons">	
+          <input type="submit" value="Submit"/>
+        </li>
+        <li class="buttons2">	
+          <a href="options.html"><p>Start Over</p></a>
+        </li>
+        </ul>
+      </div>
+    </form>
 		<div id="logo">
 			<img class="logo" src="img/logo.png" alt="artemano">
 		</div>
