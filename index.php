@@ -37,7 +37,7 @@ if ($submitted == 'y') {
 		<a href="options.html">
 		<div class="startbutton">
 			<h1>TAP HERE TO START</h1>	
-			<h2>Answer a question about our types of wood and you could win a $3000 Artemano gift card!</h2>
+			<h2>Learn about Artemano and share your answer for a chance to win a $3000 Artemano shopping spree.</h2>
 		</div>
 		</a>
 		<div id="logo">

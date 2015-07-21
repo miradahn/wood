@@ -1578,3 +1578,13 @@ li.buttons2 {
     font-size: 3.0vw;
     padding: 5px 0px 10px 0px;
 }
+.submit {
+  width: 165px;
+  width: 46%;
+  margin-top: 7%;
+  background-image: url('img/black80.png');
+}
+.submit p {
+	padding: 27px 40px 5px 40px;
+}
+
