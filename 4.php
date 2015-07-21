@@ -20,6 +20,7 @@
 <body class="bg4">
 	<div class="content">
 		<div class="question">	
+      <?php require('fragment/tryagain.php'); ?>
 			<h2>In Indonesia, I once carried fishermen. Now in my renewed life my colourful sides with nature's touch are on display. <br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>

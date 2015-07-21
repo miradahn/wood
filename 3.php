@@ -20,6 +20,7 @@
 <body class="bg3">
 	<div class="content">
 		<div class="question">	
+      <?php require('fragment/tryagain.php'); ?>
 			<h2>With natural tonal marbling<br> I’m heavy and powerful,<br> creating one of Artemano’s <br>signature collections. <br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
