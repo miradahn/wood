@@ -1366,7 +1366,7 @@ html input[disabled] {
 }
 .startbutton {
   max-width: 500px;
-  margin-top: 65%;
+  margin-top: 61%;
   margin-left: 17%;
   margin-right: 17%;
   background-image: url('img/black70.png');
@@ -1564,4 +1564,9 @@ li.buttons {
 li.buttons2 {
 	display:inline-block;
 	margin-left: 6.5%;
+}
+.success {
+	color: #ffffff;
+	font-style:italic;
+	padding-top: 40px;
 }
