@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <?php require('cfg.php');
-$answer=req('a');
 $page=req('p');
 $correct=req('c') == 'y' ? true : false;
+
+if (!$correct) {
+  header("Location: $page.php", true, 302);
+}
+
+$answer=req('a');
 $woodName=woodName($page, $answer);
 ?>
 <html lang="en" class="no-js">
