@@ -89,9 +89,9 @@ function req($var) {
 
 function notify($applicant, $questionNumber, $answer) { 
   global $email_recipients;
-  $subject = "$applicant submitted an answer";
+  $subject = "Contest Entry - Vaughn Mills";
   $wood = woodName($questionNumber, $answer);
-  $message = "$applicant answered $wood to question #$questionNumber";
+  $message = "$applicant \r\nQuestion #$questionNumber \r\nResponse $wood";
   $headers = 
       'From: webmaster@artemano.ca'."\r\n".
       'Reply-To: webmaster@artemano.ca'."\r\n".
