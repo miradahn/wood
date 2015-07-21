@@ -20,6 +20,7 @@
 <body class="bg1">
 	<div class="content">
 		<div class="question">	
+      <?php require('fragment/tryagain.php'); ?>
 			<h2>After my fruit bearing years, <br>I’m used to fashion accessories as well as industrial-styled <br>tables and desks. <br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>

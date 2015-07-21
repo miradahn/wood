@@ -20,6 +20,7 @@
 <body class="bg5">
 	<div class="content">
 		<div class="question">	
+      <?php require('fragment/tryagain.php'); ?>
 			<h2>Built a long time ago I have been found by Artemano and given a fresh vibrant look. <br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>

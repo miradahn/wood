@@ -20,6 +20,7 @@
 <body class="bg8">
 	<div class="content">
 		<div class="question">	
+      <?php require('fragment/tryagain.php'); ?>
 			<h2>In India I’m used to build<br>doors and window frames. With Artemano I often stay in my<br> natural organic form. <br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
