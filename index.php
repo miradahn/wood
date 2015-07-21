@@ -4,6 +4,10 @@ $submitted=req('s');
 $email=req('e');
 $answer=req('a');
 $page=req('p');
+
+if ($submitted == 'y') { 
+  notify($email, $page, $answer);
+}
 ?>
 <html lang="en" class="no-js">
 <head>

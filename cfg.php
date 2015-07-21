@@ -12,6 +12,10 @@ function wood($name, $correct) {
   return array('label'=>$name, 'correct'=>$correct);
 }
 
+$email_recipients=array(
+  'frig.neutron@gmail.com', 
+  'miradahn@gmail.com');
+
 $options=array(
   '1'=>array(
     'mango'=> wood('Mango Wood', 'y'),
@@ -81,5 +85,20 @@ function rightAnswer($page) {
 
 function req($var) {
   return isset($_REQUEST[$var]) ? $_REQUEST[$var] : "";
+}
+
+function notify($applicant, $questionNumber, $answer) { 
+  global $email_recipients;
+  $subject = "$applicant submitted an answer";
+  $wood = woodName($questionNumber, $answer);
+  $message = "$applicant answered $wood to question #$questionNumber";
+  $headers = 
+      'From: webmaster@artemano.ca'."\r\n".
+      'Reply-To: webmaster@artemano.ca'."\r\n".
+      'X-Mailer: PHP/'.phpversion();
+
+  foreach($email_recipients as $to) { 
+    mail($to, $subject, $message, $headers);
+  }
 }
 ?>
