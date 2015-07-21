@@ -29,9 +29,11 @@ if ($submitted == 'y') {
 
 <body class="startbackground">
 	<div class="content">
-		<div class="success">
-			<p>Thank you for your participation.</p>
-		</div>
+    <?php if ($submitted == 'y') { ?>
+      <div class="success">
+        <p>Thank you for your participation.</p>
+      </div>
+    <?php { ?>
 		<a href="options.html">
 		<div class="startbutton">
 			<h1>TAP HERE TO START</h1>	
