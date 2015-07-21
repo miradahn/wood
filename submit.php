@@ -20,9 +20,8 @@ $woodName=woodName($page, $answer);
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
   <link rel="stylesheet" href="style.css">
-
 </head>
-<body class="startbackground">
+<body class="bg<?=$page?>">
 	<div class="content">
     <form method="POST" action="index.php">
       <div class="box">	
