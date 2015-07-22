@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php require('cfg.php');
 $page=req('p');
 $correct=req('c') == 'y' ? true : false;
@@ -10,6 +9,7 @@ if (!$correct) {
 $answer=req('a');
 $woodName=woodName($page, $answer);
 ?>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
