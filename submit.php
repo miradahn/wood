@@ -31,9 +31,10 @@ $woodName=woodName($page, $answer);
     <form method="POST" action="index.php">
       <div class="box">	
         <h2>
-          <?=$woodName?> - 
-          <?=$correct ? 'CORRECT!' : 'Wrong, try again!'?></h2>
-        <p>Sign up for our email newsletter to receive your $100 gift card and be entered in our $3000 gift card contest.</p>
+          <?=$woodName?> -
+          <?=$correct ? 'Correct' : 'Try again'?></h2>
+        <p>Sign up for your chance to win a <span class="larger">$3000 Artemano shopping spree</span>, and stay up to date on our newest blogs, trends and more.</p>
+        <p class="fineprint">Unsubscribe at any time.</p>
         
       
         <div class="email">	
@@ -47,10 +48,10 @@ $woodName=woodName($page, $answer);
       <div class="buttonswrap">
       <ul>
         <li class="buttons">	
-          <input type="submit" value="Submit"/>
+          <input type="submit" value="Submit" class="submit"/>
         </li>
         <li class="buttons2">	
-          <a href="options.html"><p>Start Over</p></a>
+          <a href="options.html"><p>Try Again</p></a>
         </li>
         </ul>
       </div>

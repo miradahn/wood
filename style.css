@@ -66,7 +66,7 @@ body {
   line-height: 1.375rem;
   color: #585858;
   font-weight: 400;
-  background: #ffffff;
+  background: #c8bcac;;
 }
 p {
   margin: 0 0 1em 0;
@@ -1570,3 +1570,21 @@ li.buttons2 {
 	font-style:italic;
 	padding-top: 40px;
 }
+
+.tryagain {
+	color: #ffffff;
+	font-style:italic;
+	font-size: 18px;
+    font-size: 3.0vw;
+    padding: 5px 0px 10px 0px;
+}
+.submit {
+  width: 165px;
+  width: 46%;
+  margin-top: 7%;
+  background-image: url('img/black80.png');
+}
+.submit p {
+	padding: 27px 40px 5px 40px;
+}
+
