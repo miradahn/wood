@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php require('cfg.php');
 $submitted=req('s');
 $email=req('e');
@@ -9,6 +8,7 @@ if ($submitted == 'y') {
   notify($email, $page, $answer);
 }
 ?>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
