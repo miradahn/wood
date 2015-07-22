@@ -21,7 +21,7 @@
 	<div class="content">
 		<div class="question">	
       <?php require('fragment/tryagain.php'); ?>
-			<h2>Originally used in the food industry my colors and durability spoke to Artemano. I  have been highlighted with the human touch that lend me <br>my distinct personality. <br>Who am I?</h2>
+			<h2>I was originally used in the food industry. Dark flecks and notches lend me my distinct personality.<br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
 		<a href="options.html">

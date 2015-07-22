@@ -66,13 +66,13 @@ body {
   line-height: 1.375rem;
   color: #585858;
   font-weight: 400;
-  background: #ffffff;
+  background: #c8bcac;;
 }
 p {
   margin: 0 0 1em 0;
 }
 a {
-  color: #ffffff;
+  color: #c8bcac;
   background: transparent;
   text-decoration: none;
 }
@@ -1392,27 +1392,27 @@ body {
 p {
   font-size: 18px;
   font-size: 3.0vw;
-  color: #ffffff;
+  color: #c8bcac;
   text-align: center;
 }
 
 h1 {
   font-size: 30px;
   font-size: 4.4vw; 
-  color: #ffffff;
+  color: #c8bcac;
   text-align: center;
 }
 h2 {
   font-size: 18px;
   font-size: 3.8vw;
-  color: #ffffff;
+  color: #c8bcac;
   text-align: center;
   line-height: 1.3;
 }
 h3 {
   font-size: 18px;
   font-size: 3.4vw; 
-  color: #ffffff;
+  color: #c8bcac;
   text-align: center;
   padding-top: 0px;
   margin-top: 1.2em;
@@ -1570,3 +1570,21 @@ li.buttons2 {
 	font-style:italic;
 	padding-top: 40px;
 }
+
+.tryagain {
+	color: #ffffff;
+	font-style:italic;
+	font-size: 18px;
+    font-size: 3.0vw;
+    padding: 5px 0px 10px 0px;
+}
+.submit {
+  width: 165px;
+  width: 46%;
+  margin-top: 7%;
+  background-image: url('img/black80.png');
+}
+.submit p {
+	padding: 27px 40px 5px 40px;
+}
+
