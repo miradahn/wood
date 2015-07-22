@@ -388,6 +388,14 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
+  margin-top: 7%;
+  background-image: url('img/black80.png');
+  font-size: 3.0vw;
+  color: #c8bcac;
+  text-align: center;
+  border: none;
+  background: none;
+  padding: 10px 0px 26px 64px;
 }
 button[disabled],
 html input[disabled] {
@@ -1559,7 +1567,7 @@ li.buttons {
   background-image: url('img/black80.png');
 }
 .buttons2 p {
-	padding: 27px 40px 5px 40px;
+	padding: 10px 0px 26px 64px;
 }
 li.buttons2 {
 	display:inline-block;
