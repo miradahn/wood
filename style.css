@@ -357,7 +357,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"] {
   height: 50px;
-  width:350px;
+  width: 100%;
   padding: .9em;
   padding-bottom: 15px;
   border: none;
