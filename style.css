@@ -387,9 +387,8 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  margin-top: 7%;
   background-image: url('img/black80.png');
-  font-size: 3.0vw;
+  font-size: 2.7vw;
   color: #efe0cc;
   text-align: center;
   border: none;
@@ -1363,6 +1362,7 @@ html input[disabled] {
 .startbackground {
   background: url('img/startbg.png') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }
 .content {
 	max-width: 768px;
@@ -1392,7 +1392,6 @@ html input[disabled] {
 	margin-left:35%;
 	padding-top: 3%;
 }
-
 body {
 	font-size:100%;
 }
@@ -1427,6 +1426,7 @@ h3 {
 .optionsbackground {
   background: url('img/optionsbg.png') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 
 .my_container ul {
@@ -1452,34 +1452,42 @@ h3 {
 .bg1 {
   background: url('img/bg1.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg2 {
   background: url('img/bg2.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg3 {
   background: url('img/bg3.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg4 {
   background: url('img/bg4.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg5 {
   background: url('img/bg5.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg6 {
   background: url('img/bg6.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg7 {
   background: url('img/bg7.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 .bg8 {
   background: url('img/bg8.jpg') no-repeat center center fixed; 
   background-size: cover;
+  background-color: #000000;
 }  
 
 .question {
@@ -1543,14 +1551,14 @@ h3 {
   padding: 10px 0px 20px 0px;
  }
 .buttonswrap { 
-  margin-left: 17%;
-  margin-right: 17%;
   max-width: 500px;
+  width: 100%;
+  margin-top: 4%;
+  margin-left: 16%;
+  margin-right: 16%;
 }
 .buttons {
-  width: 165px;
-  width: 46%;
-  margin-top: 7%;
+  width: 200px;
   background-image: url('img/black80.png');
 }
 .buttons p {
@@ -1560,17 +1568,19 @@ li.buttons {
 	display: inline-block;
 }
 .buttons2 {
-  width: 165px;
-  width: 46%;
-  margin-top: 7%;
+  width: 200px;
   background-image: url('img/black80.png');
 }
-.buttons2 p {
-	padding: 10px 0px 26px 64px;
+li.buttons2 p {
+  padding: 26px 50px 26px 50px;
+  font-size: 2.7vw;
+  color: #efe0cc;
+  text-align: center;
+  margin: auto;
 }
 li.buttons2 {
 	display:inline-block;
-	margin-left: 6.5%;
+	margin-left: 6%;
 }
 .success {
 	font-style:italic;
@@ -1594,14 +1604,12 @@ li.tryagain {
     padding: 5px 0px 10px 0px;
 }
 .submit {
-  width: 165px;
-  width: 46%;
-  margin-top: 7%;
+  width: 210px;
   background-image: url('img/black80.png');
 }
 input.submit {
-	padding: 27px 40px 5px 40px;
-	
+	width: 100%;
+	padding: 26px 50px 26px 50px;
 }
 span.larger {
 	font-size: 20px;
