@@ -44,8 +44,8 @@ $options=array(
   ),
   '6'=>array(
     'antique'=>  wood('Semi-Antique Wood', 'n'), 
-    'railway'=> wood('Recycled Railway Wood', 'n'),
-    'boat' => wood('Recycled Boat Wood', 'y'),
+    'railway'=> wood('Recycled Railway Wood', 'y'),
+    'boat' => wood('Recycled Boat Wood', 'n'),
   ),
   '7'=>array(
     'teak'=>  wood('Teak', 'n'), 
