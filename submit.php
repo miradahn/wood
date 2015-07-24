@@ -62,5 +62,6 @@ $woodName=woodName($page, $answer);
 			<img class="logo" src="img/logo.png" alt="artemano">
 		</div>
 	</div>
+  <?php require('fragment/jsfooter.php'); ?>
 </body>
 </html>
