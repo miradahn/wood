@@ -53,7 +53,7 @@ $woodName=woodName($page, $answer);
           <input type="submit" value="Submit" class="submit"/>
         </li>
         <li class="buttons2">	
-          <a href="options.html"><p>Try Again</p></a>
+          <a href="options.php"><p>Try Again</p></a>
         </li>
         </ul>
       </div>
