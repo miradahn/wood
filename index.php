@@ -34,7 +34,7 @@ if ($submitted == 'y') {
         <p>Thank you for your participation.</p>
       </div>
     <?php } ?>
-		<a href="options.html">
+		<a href="options.php">
 		<div class="startbutton">
 			<h1>TAP HERE TO START</h1>	
 			<h2>Learn about Artemano and share your answer for a chance to win a $3000 Artemano shopping spree.</h2>
@@ -44,7 +44,7 @@ if ($submitted == 'y') {
 			<img class="logo" src="img/logo.png" alt="artemano">
 		</div>
 	</div>
-
+  <?php require('fragment/jsfooter.php'); ?>
 </body>
 
 </html>

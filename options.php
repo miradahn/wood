@@ -53,5 +53,6 @@
 			<img class="logo2" src="img/logo.png" alt="artemano">
 		</div>
 	</div>
+  <?php require('fragment/jsfooter.php'); ?>
 </body>
 </html>
