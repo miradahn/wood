@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Welcome to Artemano</title>
-
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="img/favicon.png">
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
@@ -21,7 +21,7 @@
 	<div class="content">
 		<div class="question">	
       <?php require('fragment/tryagain.php'); ?>
-			<h2>My extensive branches are<br>used to craft stand-alone live edge furniture that evolve into<br>pieces of art.<br>Who am I?</h2>
+			<h2>My extensive branches are<br>used to craft stand-alone live edge furniture that evolve into pieces of art.<br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
 		<a href="options.php">

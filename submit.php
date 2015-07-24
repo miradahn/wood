@@ -15,10 +15,11 @@ $woodName=woodName($page, $answer);
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Welcome to Artemano</title>
-
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="img/favicon.png">
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
@@ -33,8 +34,8 @@ $woodName=woodName($page, $answer);
         <h2>
           <?=$woodName?> -
           <?=$correct ? 'Correct' : 'Try again'?></h2>
-        <p>Sign up for your chance to win a <span class="larger">$3000 Artemano shopping spree</span>, and stay up to date on our newest blogs, trends and more.</p>
-        <p class="fineprint">Unsubscribe at any time.</p>
+        <p>Sign up for your chance to win a<br><span class="larger">$3000 Artemano shopping spree,</span><br>and stay up to date on our newest<br>blogs, trends and more.</p>
+        
         
       
         <div class="email">	
@@ -43,6 +44,7 @@ $woodName=woodName($page, $answer);
         <input type="hidden" name="a" value="<?=$answer?>" />
         <input type="hidden" name="s" value="y" />
         </div>
+        <p class="fineprint">Unsubscribe at any time.</p>
       </div>
     
       <div class="buttonswrap">
