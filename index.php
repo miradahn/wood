@@ -15,7 +15,8 @@ if ($submitted == 'y') {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Welcome to Artemano</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">  <meta name="description" content="">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">  
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="img/favicon.png">
@@ -24,15 +25,24 @@ if ($submitted == 'y') {
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
   <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
 
 </head>
 
 <body class="startbackground">
 	<div class="content">
     <?php if ($submitted == 'y') { ?>
-      <div class="success">
+      <div id="thankYouNote" class="success">
         <p>Thank you for your participation.</p>
       </div>
+      <script type="text/javascript">
+        window.setTimeout(
+          function() {
+            $("#thankYouNote").remove();
+          },
+          5000
+        );
+      </script>
     <?php } ?>
 		<a href="options.php">
 		<div class="startbutton">
