@@ -39,7 +39,7 @@ $woodName=woodName($page, $answer);
         
       
         <div class="email">	
-        <input type="text" name="e" placeholder="Type your email here" />
+        <input type="email" name="e" placeholder="Type your email here" required />
         <input type="hidden" name="p" value="<?=$page?>" />
         <input type="hidden" name="a" value="<?=$answer?>" />
         <input type="hidden" name="s" value="y" />
