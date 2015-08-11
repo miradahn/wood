@@ -34,17 +34,14 @@ $woodName=woodName($page, $answer);
         <h2>
           <?=$woodName?> -
           <?=$correct ? 'Correct' : 'Try again'?></h2>
-        <p>Sign up for your chance to win a<br><span class="larger">$3000 Artemano shopping spree,</span><br>and stay up to date on our newest<br>blogs, trends and more.</p>
-        
-        
-      
+        <p>Sign up for our newsletter for your chance to win a<br><span class="larger">$3000 Artemano shopping spree</span><br>and to stay up to date<br>on our newest blogs, trends and more.</p>    
         <div class="email">	
         <input type="email" name="e" placeholder="Type your email here" required />
         <input type="hidden" name="p" value="<?=$page?>" />
         <input type="hidden" name="a" value="<?=$answer?>" />
         <input type="hidden" name="s" value="y" />
         </div>
-        <p class="fineprint">Unsubscribe at any time.</p>
+        <p class="fineprint">You can unsubscribe at any time.</p>
       </div>
     
       <div class="buttonswrap">

@@ -22,7 +22,7 @@
 	<div class="content">
 		<div class="question">	
       <?php require('fragment/tryagain.php'); ?>
-			<h2>In my former life I carried<br>cargo and people across a large network in India.<br>Who am I?</h2>
+			<h2>In my former life, I carried<br>cargo and people across a large network in India.<br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
 		<a href="options.php">

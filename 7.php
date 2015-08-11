@@ -22,7 +22,7 @@
 	<div class="content">
 		<div class="question">	
       <?php require('fragment/tryagain.php'); ?>
-			<h2>My extensive branches are<br>used to craft stand-alone live edge furniture that evolve into pieces of art.<br>Who am I?</h2>
+			<h2>My extensive branches are<br>used to craft live edge furniture that double as pieces of art.<br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
 		<a href="options.php">

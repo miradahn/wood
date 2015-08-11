@@ -22,7 +22,7 @@
 	<div class="content">
 		<div class="question">	
       <?php require('fragment/tryagain.php'); ?>
-			<h2>With natural tonal marbling,<br>I’m heavy and powerful;<br>creating one of Artemano’s<br>signature collections.<br>Who am I?</h2>
+			<h2>With natural tonal marbling,<br>I’m heavy and powerful.<br>I'm used to create one of Artemano's signature collections.<br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
 		<a href="options.php">
