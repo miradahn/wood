@@ -25,7 +25,7 @@
 			<h2>Built a long time ago,<br> I have been discovered by Artemano and given a fresh vibrant look. <br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
-		<a href="options.html">
+		<a href="options.php">
 			<div class="back">	
 			<p>← go back</p>
 		</div>
@@ -34,5 +34,6 @@
 			<img class="logo" src="img/logo.png" alt="artemano">
 		</div>
 	</div>
+  <?php require('fragment/jsfooter.php'); ?>
 </body>
 </html>

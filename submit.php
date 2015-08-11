@@ -39,7 +39,7 @@ $woodName=woodName($page, $answer);
         
       
         <div class="email">	
-        <input type="text" name="e" placeholder="Type your email here" />
+        <input type="email" name="e" placeholder="Type your email here" required />
         <input type="hidden" name="p" value="<?=$page?>" />
         <input type="hidden" name="a" value="<?=$answer?>" />
         <input type="hidden" name="s" value="y" />
@@ -53,7 +53,7 @@ $woodName=woodName($page, $answer);
           <input type="submit" value="Submit" class="submit"/>
         </li>
         <li class="buttons2">	
-          <a href="options.html"><p>Try Again</p></a>
+          <a href="options.php"><p>Try Again</p></a>
         </li>
         </ul>
       </div>
@@ -62,5 +62,6 @@ $woodName=woodName($page, $answer);
 			<img class="logo" src="img/logo.png" alt="artemano">
 		</div>
 	</div>
+  <?php require('fragment/jsfooter.php'); ?>
 </body>
 </html>

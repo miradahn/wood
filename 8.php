@@ -25,7 +25,7 @@
 			<h2>In India, I’m used to build<br>doors and window frames. With Artemano, I often stay in my natural organic form.<br>Who am I?</h2>
 		</div>
     <?php require('fragment/option.php'); ?>
-		<a href="options.html">
+		<a href="options.php">
 			<div class="back">	
 			<p>← go back</p>
 		</div>
@@ -34,5 +34,6 @@
 			<img class="logo" src="img/logo.png" alt="artemano">
 		</div>
 	</div>
+  <?php require('fragment/jsfooter.php'); ?>
 </body>
 </html>
