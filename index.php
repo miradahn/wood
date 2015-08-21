@@ -20,6 +20,7 @@ if ($submitted == 'y') {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-ipad-icon" href="/apple-ipad-icon.png"/>
 
   <link rel="stylesheet" href="style.css">
   <script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>

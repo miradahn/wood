@@ -1012,7 +1012,7 @@ input[type="submit"] {
   }
 }  
 .startbackground {
-  background: url('img/startbg.png') no-repeat center center fixed; 
+  background: url('img/startbg.jpg') no-repeat center center fixed; 
   background-size: cover;
   background-color: #000000;
 }
@@ -1075,7 +1075,7 @@ h3 {
   margin-top: 1.2em;
 }
 .optionsbackground {
-  background: url('img/optionsbg.png') no-repeat center center fixed; 
+  background: url('img/optionsbg.jpg') no-repeat center center fixed; 
   background-size: cover;
   background-color: #000000;
 }  

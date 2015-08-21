@@ -13,7 +13,7 @@ function wood($name, $correct) {
 }
 
 $email_recipients=array(
-  'frig.neutron@gmail.com', 
+  'vaughan@artemano.ca', 
   'miradahn@gmail.com');
 
 $options=array(
